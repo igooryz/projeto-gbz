@@ -32,11 +32,12 @@ header > img.logo{
 
 nav {
     background-color: #401801;
-    height: 50px;
+    height: 30px;
     text-align: center;
     letter-spacing: 2px;
     font-weight: bolder;
     font-size:  larger;
+    margin-bottom: 10px;
 }
 
 nav > a {
@@ -50,7 +51,7 @@ nav > a:hover{
     text-decoration: underline;
     color: #A67924;
     padding: 10px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 main{
