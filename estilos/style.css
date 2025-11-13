@@ -19,7 +19,8 @@ body, html{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     background-image: url(../imagens/gbz-capa.jpg);
-    background-size: cover;
+    
+    width: 100%;
     background-position: center top;
     background-attachment: fixed;
 }
@@ -77,10 +78,15 @@ p{
     margin-bottom: 1.5em;
 }
 
+strong{
+    color: yellow;
+}
+
 section > img{
     width: 100%;
     height: auto;
     display: block ;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
