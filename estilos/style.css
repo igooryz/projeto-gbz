@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Trap;
+    src: url(../fontes/TIme\ TRap.otf);
+}
+
 @media screen and (max-width: 768px) {
     
 :root {
@@ -45,6 +50,7 @@ nav {
 
 nav > a {
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #D9B036;   
     display: inline;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.281);
@@ -91,7 +97,7 @@ section > img{
     border-radius: 10px;
 }
 
-footer, a{
+footer > a{
     margin: 10px;
     color: var(--dourado);
     font-size: small;
