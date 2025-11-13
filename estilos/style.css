@@ -90,6 +90,16 @@ section > img{
     border-radius: 10px;
 }
 
+footer, a{
+    margin: 10px;
+    color: var(--dourado);
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--dourado);
+    text-decoration: none;
+    text-align: center;
+}
+
 
 }
 
