@@ -98,6 +98,7 @@ section > img{
 }
 
 footer > a{
+    display: block;
     margin: 10px;
     color: var(--dourado);
     font-size: small;
